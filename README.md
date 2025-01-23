@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project contains custom configuration files and settings for the **Ender 3 Pro** with multiple hardware upgrades and the latest version (as of January 23, 2025) of **Marlin 2.1.3 Beta 2**. The primary goal is to enhance reliability, precision, and print capabilities with a direct drive setup. You can find all the upgrades, that i purchased in the link below.
+This project contains custom configuration files and settings for the **Ender 3 Pro** with multiple hardware upgrades and the latest version (as of January 23, 2025) of **Marlin 2.1.3 Beta 2**. The primary goal is to enhance reliability, precision, and print capabilities with a direct drive setup. You can find all the upgrades, that i purchased in the links below.
 
 ## Upgrades
 
