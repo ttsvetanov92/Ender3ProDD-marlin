@@ -31,6 +31,9 @@ Everything else on the printer remains stock as it comes from the factory, inclu
 - **Marlin 2.1.3 Beta 2**: Latest version.
 - **Ender 3 Pro configuration files**: Latest version.
 
+## Download compiled firmware
+Download the latest firmware version from the [Releases page](https://github.com/ttsvetanov92/Ender3ProDD-marlin/releases).
+
 ## How to Compile the Firmware
 
 To compile the firmware, you will need **Visual Studio Code (VSCode)** with the **PlatformIO** extension. Follow these steps:
