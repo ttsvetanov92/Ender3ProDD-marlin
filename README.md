@@ -12,7 +12,7 @@ The printer has been modified with the following components:
 2. **Direct Drive**: [Redesigned filament feeding system for improved reliability.](https://www.aliexpress.com/item/4000395495656.html)
 3. **CR Touch**: [For automatic bed leveling.](https://www.aliexpress.com/item/1005007359991266.html)
 4. **Dual Z-Axis**: [Improved stability and precision on the Z-axis.](https://www.aliexpress.com/item/1005006140643642.html)
-5. **Hotend Fan**: Noctua A4 40x40x10 with a 24V-to-12V converter for quiet and efficient cooling.
+5. **Hotend Fan**: [Noctua A4 FLX 40x40x10](https://www.amazon.com/Noctua-Cooling-Blades-Bearing-NF-A4x10/dp/B009NQLT0M/ref=sr_1_1?dib=eyJ2IjoiMSJ9.y0llkIF5Rh2xr60zWm4pcqizDatI0t2GnXKHkpV7rR-LDPxFcZe2LbS76aXA5m0JW-MlyULai4Ruero9JDhKPvnwRpmQ5IkKq3Gaxe_gl7-NkQjwaaWTD5s8Zy098bcXRvZrxbvCIhefscDoHmQsIb3kUcO22T9PY7248CbfLCQ1qYx_AswaUBSjyzhh7CzrMq-Rr4EfAgiLo_aYfg0p8ii5gLlsBcSJPEFWfRELnOg.5QjkMp3IU0sQJsPKA7Oi1Ls00qijGcnkSOr3ZBOkMlU&dib_tag=se&keywords=Noctua+A4+40x40x10&qid=1737628433&sr=8-1) with a [24V-to-12V converter](https://www.aliexpress.com/item/32742116421.html) for quiet and efficient cooling.
 6. **PEI Sheet**: [Flexible metal sheet for improved bed adhesion and easy part removal.](https://www.aliexpress.com/item/1005005818524087.html)
 
 ### Stock Components
