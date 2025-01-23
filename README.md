@@ -61,9 +61,7 @@ For a detailed guide, you can refer to [this video tutorial](https://www.youtube
 - Line 1341: `#define DEFAULT_TRAVEL_ACCELERATION 1200` (default `500`)
 - Line 1898: `#define Z_MAX_POS 210` (reduced from `250` for safety)
 
-**Configuration_adv.h**
-- Line 2923: `#define FILAMENT_CHANGE_UNLOAD_LENGTH 120` (default `400`)
-- Line 2932: `#define FILAMENT_CHANGE_FAST_LOAD_LENGTH 100` (default `350`)
+
 
 ### CR Touch Settings
 **Configuration.h**
@@ -73,6 +71,7 @@ For a detailed guide, you can refer to [this video tutorial](https://www.youtube
 - Line 1645: `#define NOZZLE_TO_PROBE_OFFSET { -45, -5, 0 }` (measured values)
 - Line 1926: Commented out `#define MIN_SOFTWARE_ENDSTOP_Z` (allows negative Z offset)
 - Line 2111: `#define AUTO_BED_LEVELING_BILINEAR`
+- Line 2113: Comment `#define MESH_BED_LEVELING` (instead of bilinear leveling)
 - Line 2347: `#define Z_SAFE_HOMING`
 
 **Configuration_adv.h**
@@ -84,12 +83,13 @@ For a detailed guide, you can refer to [this video tutorial](https://www.youtube
 ### Direct Drive Settings
 **Configuration.h**
 - Line 1299: `#define DEFAULT_AXIS_STEPS_PER_UNIT { 80, 80, 400, 97.33 }` (calibrated extruder, default was `93`)
-- Line 1324: `#define DEFAULT_MAX_ACCELERATION { 500, 500, 200, 5000 }`
-- Line 1351: `#define CLASSIC_JERK` (default values: `X=10, Y=10, Z=0.3, E=5`)
+- Line 1351: Uncomment `#define CLASSIC_JERK` (default values: `X=10, Y=10, Z=0.3, E=5`)
 
 **Configuration_adv.h**
 - Line 2340: `#define LIN_ADVANCE`
-- Line 2345: `#define ADVANCE_K 0.0` (K-factor to be fine-tuned later)
+- Line 2345: `#define ADVANCE_K 0.0` (K-factor is specific for filament type and will be fine-tuned later in slicer)
+- Line 2923: `#define FILAMENT_CHANGE_UNLOAD_LENGTH 120` (default for bowden is `400`)
+- Line 2932: `#define FILAMENT_CHANGE_FAST_LOAD_LENGTH 100` (default for bowden is `350`)
 
 ### Other Settings
 PETG preheat option added to the LCD menu (**Configuration.h**, lines 2472–2491):
