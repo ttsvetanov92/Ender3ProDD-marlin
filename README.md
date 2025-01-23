@@ -40,6 +40,20 @@ Everything else on the printer remains stock as it comes from the factory, inclu
 - **Marlin 2.1.3 Beta 2**: Latest version.
 - **OctoPi**: Used for managing prints via Raspberry Pi.
 
+## How to Compile the Firmware
+
+To compile the firmware, you will need **Visual Studio Code (VSCode)** with the **PlatformIO** extension. Follow these steps:
+
+1. Install **Visual Studio Code** if you haven’t already.
+2. Open VSCode and install the **PlatformIO IDE** extension from the Extensions Marketplace.
+3. Clone this repository or download it as a ZIP file and extract it.
+4. Open the firmware folder in VSCode.
+5. Use PlatformIO to build the project:
+   - Click on the checkmark (✔) in the bottom toolbar, or run `PlatformIO: Build` from the Command Palette.
+   - This will generate the compiled firmware file (`.bin`) in the `.pio/build/` folder.
+
+For a detailed guide, you can refer to [this video tutorial](https://www.youtube.com/watch?v=PMG4bC9I3DA).
+
 ## Full Changelog
 
 ### Print Motion Settings
