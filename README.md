@@ -14,7 +14,6 @@ The printer has been modified with the following components:
 4. **Dual Z-Axis**: [Improved stability and precision on the Z-axis.](https://www.aliexpress.com/item/1005006140643642.html)
 5. **Hotend Fan**: Noctua A4 40x40x10 with a 24V-to-12V converter for quiet and efficient cooling.
 6. **PEI Sheet**: [Flexible metal sheet for improved bed adhesion and easy part removal.](https://www.aliexpress.com/item/1005005818524087.html)
-7. **Raspberry Pi 3**: Running **OctoPi** for remote control and monitoring.
 
 ### Stock Components
 
@@ -27,18 +26,10 @@ Everything else on the printer remains stock as it comes from the factory, inclu
 - Carriages
 - Other mechanical components
 
-## Firmware Settings
-
-- **Max Feedrate**: Reduced to **100 mm/s** for the extruder.
-- **Acceleration (M201)**: Set to **3000 mm/s²** for the extruder (default was 5000 mm/s²).
-- **Z Acceleration**: Kept at **200 mm/s²** due to the dual motor setup.
-- **Jerk**: Optimized for smoother movements.
-- **Linear Advance**: K-factor is being tested and adjusted.
-
 ## Software Used
 
 - **Marlin 2.1.3 Beta 2**: Latest version.
-- **OctoPi**: Used for managing prints via Raspberry Pi.
+- **Ender 3 Pro configuration files**: Latest version.
 
 ## How to Compile the Firmware
 
